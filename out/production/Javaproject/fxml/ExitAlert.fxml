@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="139.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ExitAlertController">
+    <children>
+        <VBox alignment="CENTER" prefHeight="139.0" prefWidth="257.0" spacing="30.0">
+            <children>
+                <Label text="Are you shure you want to exit?" />
+                <HBox alignment="CENTER" prefHeight="29.0" prefWidth="266.0" spacing="30.0">
+                    <children>
+                        <Button defaultButton="true" mnemonicParsing="false" onAction="#PressYes" prefHeight="26.0" prefWidth="69.0" text="Yes" />
+                        <Button cancelButton="true" mnemonicParsing="false" onAction="#PressCancel" prefHeight="26.0" prefWidth="69.0" text="Cancel" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</Pane>
